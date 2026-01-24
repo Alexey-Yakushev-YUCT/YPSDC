@@ -26,8 +26,8 @@ https://creativecommons.org/licenses/by/4.0/deed.ru (in Russian)
 Citation
 When using this work, please cite as:
 
-text
-Yakushev, A. V. (2024). [Title of the work]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+DOI: 10.5281/zenodo.18362308 https://doi.org/10.5281/zenodo.18362308
+Yakushev, A. V. (2024). [Title of the work]. Zenodo. [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.18362308)
 Or in BibTeX format:
 
 bibtex
@@ -36,7 +36,7 @@ bibtex
   title = {[Title of the work]},
   year = {2024},
   publisher = {Zenodo},
-  doi = {10.5281/zenodo.XXXXXXX}
+  doi = {10.5281/zenodo.18362308}
 }
 Contact
 For collaboration, usage inquiries, or additional information, please contact by email: alexey@yakushev.eu
