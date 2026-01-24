@@ -1,0 +1,163 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm, bm}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+% Theorem environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+
+% Equation numbering by section
+\numberwithin{equation}{section}
+
+\title{Geometric and Information-Theoretic Foundations of a Coordination-First Theory of Reality}
+
+\author{Alexey V. Yakushev\thanks{Independent Researcher. Email: \texttt{alexey@yakushev.eu}. Websites: \url{https://ypsdc.com/}, \url{http://yuct.org/}.}}
+
+\date{January 24, 2026}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		This work introduces a novel mathematical framework positing that coordination---the process of synchronizing states across distributed components---is ontologically prior to both spacetime and matter. This work proposes a fundamental ontological shift where coordination replaces spacetime and matter as primitive constructs. We formalize this through three interlocked constructs: (1) the \textbf{Dictionary Manifold} $\mathcal{M}_{\mathcal{D}}$, a Riemannian manifold where points represent dictionaries mapping compact indices to complex actions, equipped with a metric $g^{\mathcal{D}}_{ij}$ encoding semantic distance; (2) the \textbf{YPSDC Protocol} (Yakushev Protocol for Synchronous Distributed Coordination), which separates coordination from data transmission, enabling a coordination efficiency factor $K_{\mathrm{eff}} = H(\mathcal{A})/H(\kappa) > 1$ without violating causality; and (3) the \textbf{D+I•R Triad} $\text{Reality} = D + I \times R$, an ontological primitive combining Dictionary, Information, and Resonance multiplicatively. The complete structure is a fiber bundle $\pi:\mathcal{E}\to\mathcal{M}$ with spacetime as the base and $\mathcal{M}_{\mathcal{D}}$ as the fiber. This axiomatic core provides a unified geometric and information-theoretic language for subsequent derivation of physics, where laws and constants emerge from coordination principles. The framework is inherently testable through $K_{\mathrm{eff}}$-dependent corrections to gravitational and quantum equations.
+	\end{abstract}
+	
+	\noindent\textbf{Keywords:} Coordination Theory, Dictionary Manifold, YPSDC Protocol, D+I•R Triad, Fiber Bundle, Information Geometry, Ontological Primitive, YUCT, $K_{\mathrm{eff}}$.
+	
+	\section{Introduction: The Primacy of Coordination}
+	
+	We propose a paradigm shift: the coordination of states among system components is ontologically prior to both spacetime and matter. To formalize this, we introduce a geometric and information-theoretic framework based on three interlocking constructs: the Dictionary Manifold, the YPSDC protocol, and the D+I•R triad.
+	
+	\section{The Dictionary Manifold $\mathcal{M}_{\mathcal{D}}$}
+	
+	\begin{definition}[Dictionary Manifold]
+		A dictionary manifold $\mathcal{M}_{\mathcal{D}}$ is a smooth, finite-dimensional Riemannian manifold where each point $p \in \mathcal{M}_{\mathcal{D}}$ represents a complete \textit{dictionary}---a bijective mapping $\mathcal{D}: \mathcal{K} \to \mathcal{A}$ from a set of compact indices $\mathcal{K}$ to a set of complex actions or states $\mathcal{A}$.
+	\end{definition}
+	
+	The manifold is equipped with a metric $g^{\mathcal{D}}_{ij}$ derived from the Fisher information of the dictionary's action space, measuring semantic distance between dictionaries. The curvature of $\mathcal{M}_{\mathcal{D}}$ encodes the complexity and relational structure of coordination protocols.
+	
+	\section{The YPSDC Protocol and $K_{\mathrm{eff}} > 1$}
+	
+	\begin{definition}[YPSDC Protocol]
+		The Yakushev Protocol for Synchronous Distributed Coordination consists of:
+		\begin{enumerate}
+			\item \textbf{Offline Phase:} Distribution of a shared dictionary $\mathcal{D}$.
+			\item \textbf{Online Phase:} Transmission of only a short index $\kappa \in \mathcal{K}$.
+		\end{enumerate}
+	\end{definition}
+	
+	\begin{definition}[Coordination Efficiency]
+		For a system with separation $L$, channel capacity $C$, and processing delay $\tau$, the operational coordination efficiency is:
+		\begin{equation}
+			K_{\mathrm{eff}} = \frac{T_{\text{base}}}{T_{\text{actual}}} = \frac{H(\mathcal{A})/C + \tau}{H(\kappa)/C + \tau},
+			\label{eq:keff}
+		\end{equation}
+		where $H(\mathcal{A})$ and $H(\kappa)$ are Shannon entropies.
+	\end{definition}
+	
+	\begin{theorem}[Achievability of $K_{\mathrm{eff}} > 1$]
+		For any system with a pre-shared dictionary $\mathcal{D}$ where $H(\mathcal{A}) \gg H(\kappa)$, the YPSDC protocol achieves $K_{\mathrm{eff}} \gg 1$ while maintaining causal signal propagation $v \leq c$.
+	\end{theorem}
+	
+	\section{The D+I•R Triad}
+	
+	Physical reality is postulated to be described by the multiplicative triad:
+	\begin{equation}
+		\boxed{\mathrm{Reality} = D + I \times R}
+		\label{eq:triad}
+	\end{equation}
+	where:
+	\begin{itemize}
+		\item $D$ (Dictionary): The structured set of potentialities (laws, codes, symmetries), modeled by $\mathcal{M}_{\mathcal{D}}$.
+		\item $I$ (Information): The Shannon/von Neumann entropy content.
+		\item $R$ (Resonance): A nonlinear amplification operator $R \geq 1$, representing coherence and synchronization gain.
+	\end{itemize}
+	
+	The multiplicative coupling $I \times R$ enables effective information capacity exceeding naive channel limits, mathematically encapsulating the $K_{\mathrm{eff}}>1$ effect.
+	
+	\section{Unified Geometric Structure}
+	
+	The complete framework is a fiber bundle $\pi: \mathcal{E} \to \mathcal{M}$:
+	\begin{itemize}
+		\item \textbf{Base $\mathcal{M}$:} A 4-dimensional Lorentzian manifold (emergent spacetime).
+		\item \textbf{Fiber $\mathcal{M}_{\mathcal{D}}(x)$:} Dictionary manifold attached at each $x \in \mathcal{M}$.
+		\item \textbf{Total Space $\mathcal{E}$:} All dictionary-field configurations over spacetime.
+		\item \textbf{Section $\sigma(x)$:} A choice of dictionary $\mathcal{D}(x)$ at each point.
+	\end{itemize}
+	
+	The geometry of $\mathcal{E}$ combines causal structure of $\mathcal{M}$ with semantic-informational structure of the fibers.
+	
+	\section{Conclusion and Path Forward}
+	
+	This paper establishes the axiomatic mathematical core of a coordination-first ontology. The constructs of Dictionary Manifold, YPSDC protocol with $K_{\mathrm{eff}}$, and D+I•R triad provide a unified language for subsequent development. Immediate applications to be developed in specialized publications include:
+	
+	\begin{enumerate}
+		\item Derivation of Einstein field equations with $K_{\mathrm{eff}}$-corrections from variational principles on $\mathcal{E}$
+		\item Recasting of quantum mechanics as the $R \to \infty$ limit of D+I•R dynamics
+		\item Explicit testable predictions for perihelion precession: $\Delta\phi_{\mathrm{total}} = \Delta\phi_{\mathrm{GR}}(1 + \frac{4}{3}\kappa^2)$
+		\item Modeling of biological and social systems as high-$K_{\mathrm{eff}}$ regimes
+	\end{enumerate}
+	
+	The theory is falsifiable through $K_{\mathrm{eff}}$-dependent corrections to established physical laws, with the strongest constraints expected from precision orbital mechanics.
+	
+	\section*{Acknowledgments}
+	The author thanks the anonymous reviewers for their constructive feedback.
+	
+	\begin{thebibliography}{20}
+		
+		\bibitem{Amari2016}
+		Amari, S. (2016).
+		\newblock \emph{Information Geometry and Its Applications}.
+		\newblock Springer, Berlin.
+		
+		\bibitem{Kobayashi1963}
+		Kobayashi, S., and Nomizu, K. (1963).
+		\newblock \emph{Foundations of Differential Geometry}, Vol. 1.
+		\newblock Wiley, New York.
+		
+		\bibitem{Jacobson1995}
+		Jacobson, T. (1995).
+		\newblock Thermodynamics of spacetime: The Einstein equation of state.
+		\newblock \emph{Physical Review Letters}, 75(7), 1260--1263.
+		
+		\bibitem{Einstein1915}
+		Einstein, A. (1915).
+		\newblock Die Feldgleichungen der Gravitation.
+		\newblock \emph{Sitzungsberichte der K\"oniglich Preussischen Akademie der Wissenschaften}, 844--847.
+		
+		\bibitem{Shannon1948}
+		Shannon, C. E. (1948).
+		\newblock A mathematical theory of communication.
+		\newblock \emph{Bell System Technical Journal}, 27(3), 379--423.
+		
+		\bibitem{Misner1973}
+		Misner, C. W., Thorne, K. S., and Wheeler, J. A. (1973).
+		\newblock \emph{Gravitation}.
+		\newblock W. H. Freeman, San Francisco.
+		
+		\bibitem{Wald1984}
+		Wald, R. M. (1984).
+		\newblock \emph{General Relativity}.
+		\newblock University of Chicago Press, Chicago.
+		
+		\bibitem{vonNeumann1932}
+		von Neumann, J. (1932).
+		\newblock \emph{Mathematische Grundlagen der Quantenmechanik}.
+		\newblock Springer, Berlin.
+		
+		\bibitem{Nash1956}
+		Nash, J. (1956).
+		\newblock The imbedding problem for Riemannian manifolds.
+		\newblock \emph{Annals of Mathematics}, 63(1), 20--63.
+		
+		\bibitem{Weinberg1972}
+		Weinberg, S. (1972).
+		\newblock \emph{Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity}.
+		\newblock Wiley, New York.
+		
+	\end{thebibliography}
+	
+\end{document}
