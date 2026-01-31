@@ -26,7 +26,9 @@ https://creativecommons.org/licenses/by/4.0/deed.ru (in Russian)
 Citation
 When using this work, please cite as:
 
-Yakushev, A. V. (2026). [Title of the work]. Zenodo. [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.18362308)
+Yakushev, A. V. (2026). [YAKUSHEV UNIFIED COORDINATION THEORY (YUCT)]. 
+Zenodo. SHORT VERSION [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.18362308)
+Zenodo/ FULL VERSION 1.0. [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.18444599)
 Or in BibTeX format:
 
 bibtex
