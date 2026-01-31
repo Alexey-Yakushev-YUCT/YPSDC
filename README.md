@@ -1,4 +1,4 @@
-# YPSDC
+# YPSDC / YUCT
 YPSDC protocol
 License and Copyright Information
 Authorship
